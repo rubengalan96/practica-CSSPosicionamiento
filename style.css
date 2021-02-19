@@ -1,0 +1,121 @@
+body {
+    background-color:hsla(0, 3%, 81%, 0.767);
+    
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 0px;
+  }
+  
+  p {
+    padding: 10px;
+    font-size: 1.5rem;
+  }
+  
+  p.ley1 {
+    /*POSICIONAMIENTO*/
+    position: absolute;
+    top: 8%;
+    left: 10%;
+    /*FORMATO PARRAFO*/
+    border: hsl(29, 84%, 32%) 2px solid;
+    background-color: hsla(34, 95%, 75%, 0.808);
+    text-align: center;
+    /*DIMENSIONES*/
+    width: 80vw;
+    height: 10vh;
+    
+    
+  }
+  
+  p.ley2 {
+    /*POSICIONAMIENTO*/
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    z-index: 2;
+    /*FORMATO PARRAFO*/
+    border: hsl(115, 86%, 23%) 4px solid;
+    background-color: hsl(113, 100%, 76%);
+    text-align: center;
+    /*DIMENSIONES*/
+    width: 35vw;
+    height: 30vh;
+    
+    
+    
+  }
+  
+  p.ley3 {
+    /*POSICIONAMIENTO*/
+    position: absolute; 
+    top: 25%;
+    left: 5%;
+    z-index: 1;/*no es necesario, pero lo he puesto*/
+    /*FORMATO PARRAFO*/
+    border: hsl(60, 65%, 54%) 4px solid;
+    background-color: hsl(59, 97%, 74%);
+    text-align: left;
+    /*DIMENSIONES*/
+    width: 35vw;
+    height: 25vh;
+    
+    
+  }
+  
+  p.ley4 {
+    /*POSICIONAMIENTO*/
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    z-index: 1;/*no es necesario, pero lo he puesto*/
+    /*FORMATO PARRAFO*/
+    text-align: right;
+    border: hsl(180, 44%, 64%) 4px solid;
+    background-color: hsl(175, 58%, 82%);
+    /*DIMENSIONES*/
+    width: 35vw;
+    height: 25vh;
+    
+   
+  }
+  
+  p.ley5 {
+    /*POSICIONAMIENTO*/
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    z-index: 1;/*no es necesario, pero lo he puesto*/
+    /*FORMATO PARRAFO*/
+    text-align: left;
+    border: hsl(310, 25%, 66%) 4px solid;
+    background-color: hsl(291, 100%, 95%);
+    /*DIMENSIONES*/
+    width: 35vw;
+    height: 25vh;
+    
+    
+  }
+  
+  p.ley6 {
+    /*POSICIONAMIENTO*/
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    z-index: 1;/*no es necesario, pero lo he puesto*/
+    /*FORMATO PARRAFO*/
+    text-align: right;
+    border: hsl(0, 23%, 55%) 4px solid;
+    background-color: hsl(0, 92%, 86%);
+    /*DIMENSIONES*/
+    width: 35vw;
+    height: 25vh;
+    
+    
+  }
+  
+  p:hover {
+    z-index: 3;/*incluso puede ser 2 y se superpone*/
+  }
